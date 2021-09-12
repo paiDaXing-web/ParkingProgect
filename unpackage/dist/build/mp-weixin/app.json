@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "pages/payment/payment",
+    "pages/parkingRecord/parkingRecord",
+    "pages/paymentOnBehalf/paymentOnBehalf",
+    "pages/myCar/myCar",
+    "pages/addCar/addCar",
+    "pages/myCoupon/myCoupon",
+    "pages/orderDetails/orderDetails",
+    "pages/othersPayment/othersPayment"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#808080",
+    "selectedColor": "#007AFF",
+    "iconWidth": "28px",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/images/icon_tab_one_no.png",
+        "selectedIconPath": "static/images/icon_tab_one_yes.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/images/icon_tab_four_no.png",
+        "selectedIconPath": "static/images/icon_tab_four_yes.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

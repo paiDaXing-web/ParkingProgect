@@ -1,0 +1,117 @@
+page {
+  padding-top: 210rpx;
+  background-color: #fafafa;
+}
+.headline {
+  background-color: #007AFF;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  padding: 20rpx 0rpx;
+  position: fixed;
+  width: 100%;
+  top: 0rpx;
+  padding-top: 120rpx;
+}
+.headline > view {
+  padding: 0rpx 20rpx;
+}
+.content .hint {
+  margin-top: 300rpx;
+  text-align: center;
+  font-size: 32rpx;
+}
+.content .hint > image {
+  margin-bottom: 60rpx;
+  width: 360rpx;
+  height: 360rpx;
+}
+.content .order {
+  background-color: #FFFFFF;
+  width: 90vw;
+  margin: 3vw;
+  padding: 2vw;
+  border-radius: 16rpx;
+}
+.content .order .top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  border-bottom: 1px solid #F1F1F1;
+  padding-bottom: 2vw;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.content .order .top .right {
+  color: #dd3f20;
+  font-size: 32rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.content .order .top .right .iconfont {
+  color: #808080;
+}
+.content .order .bottom {
+  padding-top: 20rpx;
+  line-height: 68rpx;
+}
+.content .order .bottom .number_plate {
+  color: #007AFF;
+}
+.content .order .bottom .time {
+  font-size: 32rpx;
+  color: #808080;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.title {
+  background-color: #007AFF;
+  color: #FFFFFF;
+  padding: 60rpx 120rpx;
+  font-size: 32rpx;
+}
+.list {
+  color: #007AFF;
+  text-align: center;
+  padding: 30rpx 0rpx;
+}
+.list > view {
+  padding: 30rpx 0rpx;
+  border-bottom: 1px solid #C8C7CC;
+}
+

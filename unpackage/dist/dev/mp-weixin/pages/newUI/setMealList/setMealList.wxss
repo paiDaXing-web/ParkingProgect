@@ -1,0 +1,41 @@
+.top {
+  border: 1px solid #F1F1F1;
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+}
+.list .setMeal {
+  background-color: #0055ff;
+  width: 88vw;
+  margin: 0rpx 3vw;
+  margin-top: 30rpx;
+  padding: 2vw 3vw;
+  border-radius: 16rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  color: #FFFFFF;
+  font-size: 30rpx;
+}
+.list .setMeal .left .name {
+  margin-bottom: 50rpx;
+}
+.list .setMeal .left > view {
+  margin: 16rpx 0rpx;
+}
+.list .setMeal .right > image {
+  margin-top: 20rpx;
+  width: 288rpx;
+  height: 112rpx;
+}
+.list .setMeal .right > view {
+  margin: 18rpx 0rpx;
+}
+

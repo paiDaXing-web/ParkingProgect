@@ -1,0 +1,6 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "tui-steps": "/components/tui-steps/tui-steps"
+  }
+}

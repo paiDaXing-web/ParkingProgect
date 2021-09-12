@@ -1,0 +1,6 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "tui-bubble-popup": "/components/tui-bubble-popup/tui-bubble-popup"
+  }
+}

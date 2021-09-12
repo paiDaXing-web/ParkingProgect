@@ -1,0 +1,76 @@
+page {
+  background-color: #F8F8F8;
+}
+.headline {
+  background-image: url(http://dk5800.com/bg_me.png);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 100rpx 30rpx;
+  color: #FFFFFF;
+}
+.headline .img_name {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.headline .img_name > image {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 100rpx;
+  margin-right: 20rpx;
+}
+.my_car_order {
+  background-color: #FFFFFF;
+  width: 90vw;
+  margin: 0rpx 5vw;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  text-align: center;
+  padding: 40rpx 0rpx;
+  font-size: 32rpx;
+  box-shadow: 0px 8px 8px #d8d8d8;
+  border-radius: 20rpx;
+  position: absolute;
+  top: 310rpx;
+}
+.my_car_order > view > image {
+  width: 90rpx;
+  height: 90rpx;
+}
+.hint {
+  text-align: center;
+  margin-top: 200rpx;
+  font-size: 32rpx;
+  color: #999999;
+}
+.hint > image {
+  width: 280rpx;
+  height: 280rpx;
+  margin-bottom: 20rpx;
+}
+

@@ -1,0 +1,79 @@
+page {
+  background-color: #F1F1F1;
+}
+.list .li {
+  width: 88vw;
+  background-color: #FFFFFF;
+  margin: 3vw;
+  padding: 3vw;
+  border-radius: 20rpx;
+  line-height: 56rpx;
+}
+.list .li .cat {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  color: #0A2463;
+  font-size: 28rpx;
+  font-weight: 600;
+}
+.list .li .cat .right {
+  color: #EF3864;
+  border: 2rpx #EF3864 solid;
+  padding: 0rpx 20rpx;
+  border-radius: 60rpx;
+  font-weight: 500;
+}
+.list .li .time1 {
+  color: #0A2463;
+  font-size: 28rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.list .li .time1 > view {
+  background-color: #0A2463;
+  width: 16rpx;
+  height: 16rpx;
+  border-radius: 16rpx;
+  margin-right: 10rpx;
+}
+.list .li .time2 {
+  color: #0A2463;
+  font-size: 28rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.list .li .time2 > view {
+  background-color: #F0AC35;
+  width: 16rpx;
+  height: 16rpx;
+  border-radius: 16rpx;
+  margin-right: 10rpx;
+}
+

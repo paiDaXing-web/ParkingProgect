@@ -1,0 +1,6 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "tui-drawer": "/components/tui-drawer/tui-drawer"
+  }
+}
